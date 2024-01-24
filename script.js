@@ -1,2 +1,2 @@
 let change = document.getElementById('change');
-change.innerText
+change.innerHTML
