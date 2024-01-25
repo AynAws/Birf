@@ -30,4 +30,4 @@ function button(img, title, text, alt) {
     document.getElementById('img-re').alt = alt;
 }
 
-button(img1, title1, text1, alt1)
+window.onload(button(img1, title1, text1, alt1));
