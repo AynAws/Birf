@@ -1,14 +1,14 @@
 const img1 = '';
 const title1 = '2007';
-const text1 = '';
+const text1 = 'My birthday.';
 const alt1 = 'A picture of the sexiest man alive.';
 
-const img2 = '';
-const title2 = '';
-const text2 = '';
-const alt2 = '';
+const img2 = 'imgs/gbay.webp';
+const title2 = '2007';
+const text2 = 'Washington court of appeals denies people deemed enemy combatants the ability to appeal their torture.';
+const alt2 = 'Prisoners are chained up with something covering their eyes and ears in a yard.';
 
-const img3 = '';
+const img3 = 'imgs/edward6.jpg';
 const title3 = '';
 const text3 = '';
 const alt3 = '';
