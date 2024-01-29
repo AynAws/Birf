@@ -1,6 +1,6 @@
 const img1 = 'imgs/BCCC248E-C86B-4B42-A23F-62090F5F5667.jpeg';
 const title1 = '2007';
-const text1 = 'My birthday.';
+const text1 = 'Febuary 20th 2007, a future human is born.';
 const alt1 = 'A picture of the sexiest man alive.';
 
 const img2 = 'imgs/gbay.webp';
@@ -10,7 +10,7 @@ const alt2 = 'Prisoners are chained up with something covering their eyes and ea
 
 const img3 = 'imgs/edward6.jpg';
 const title3 = '1547';
-const text3 = 'King Edward the 6th';
+const text3 = 'King Edward the 6th is crowned.';
 const alt3 = 'A picture of king Edward the 6th.';
 
 const img4 = 'imgs/notalcohol.jpg';
