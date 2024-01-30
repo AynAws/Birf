@@ -18,10 +18,10 @@ const title4 = '1933';
 const text4 = 'Congress ratifies the Blaine Act, sending the 21st amendment to states for approval.';
 const alt4 = 'The chemical structure of alcohol.';
 
-const img5 = '';
-const title5 = '';
+const img5 = 'imgs/geewillickers.jpg';
+const title5 = '1962';
 const text5 = '';
-const alt5 = '';
+const alt5 = 'Picture of small the small capsule the Mercury Atlas 6.';
 
 function button(img, title, text, alt) {
     document.getElementById('img-re').src = img;
