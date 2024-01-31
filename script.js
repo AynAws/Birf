@@ -10,11 +10,11 @@ const text2 = 'Washington court of appeals denies people deemed enemy combatants
 const alt2 = 'Prisoners are chained up with something covering their eyes and ears in a yard.';
 const but2 = 'but-re2';
 
-const img3 = 'imgs/edward6.jpg';
-const title3 = '1547';
-const text3 = 'King Edward the 6th is crowned.';
-const alt3 = 'A picture of king Edward the 6th.';
-const but3 = 'but-re3';
+const img5 = 'imgs/geewillickers.jpg';
+const title5 = '1962';
+const text5 = 'First orbital flight wth humans on board.';
+const alt5 = 'Picture of the small capsule of the Mercury Atlas 6.';
+const but5 = 'but-re5';
 
 const img4 = 'imgs/notalcohol.jpg';
 const title4 = '1933';
@@ -22,19 +22,27 @@ const text4 = 'Congress ratifies the Blaine Act, sending the 21st amendment to s
 const alt4 = 'The chemical structure of alcohol.';
 const but4 = 'but-re4';
 
-const img5 = 'imgs/geewillickers.jpg';
-const title5 = '1962';
-const text5 = 'Lorem ipsum dolor sit amet tet conseceur';
-const alt5 = 'Picture of the small capsule of the Mercury Atlas 6.';
-const but5 = 'but-re5';
+const img3 = 'imgs/edward6.jpg';
+const title3 = '1547';
+const text3 = 'King Edward the 6th is crowned.';
+const alt3 = 'A picture of king Edward the 6th.';
+const but3 = 'but-re3';
 
-function button(img, title, text, alt, but) {
+function button(img, title, text, alt, but, butt1, butt2, butt3, butt4) {
     document.getElementById('img-re').src = img;
     document.getElementById('title-re').textContent = title;
     document.getElementById('text-re').textContent = text;
     document.getElementById('img-re').alt = alt;
-    document.getElementById(but).classList.remove('btn-secondary')
-    document.getElementById(but).classList.add('btn-primary')
+    document.getElementById(but).classList.remove('btn-secondary');
+    document.getElementById(but).classList.add('btn-primary');
+    document.getElementById(butt1).classList.remove('btn-primary');
+    document.getElementById(butt2).classList.remove('btn-primary');
+    document.getElementById(butt3).classList.remove('btn-primary');
+    document.getElementById(butt4).classList.remove('btn-primary');
+    document.getElementById(butt1).classList.add('btn-secondary');
+    document.getElementById(butt2).classList.add('btn-secondary');
+    document.getElementById(butt3).classList.add('btn-secondary');
+    document.getElementById(butt4).classList.add('btn-secondary');
 }
 
 window.onload = button(img1, title1, text1, alt1, but1);
