@@ -1,5 +1,3 @@
-# READ ME
-
 # CONTROLS
 Double left click: turns buttons green
 Middle mouse button click: turns buttons red
