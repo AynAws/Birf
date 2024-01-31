@@ -3,6 +3,7 @@ const title1 = '2007';
 const text1 = 'Febuary 20th 2007, a future human is born.';
 const alt1 = 'A picture of the sexiest man alive.';
 const but1 = 'but-re1';
+const href1 = '';
 
 const img2 = 'imgs/gbay.webp';
 const title2 = '2007';
@@ -46,8 +47,13 @@ function button(img, title, text, alt, but, butt1, butt2, butt3, butt4) {
 }
 
 function source(but, href) {
-    document.getElementById(but).href = href;
+    //document.getElementById(but).href = href;
     document.getElementById(but).classList.add('btn-success');
+    if (but === 'but-re1') {
+        document.getElementById(but).textContent = 'I am the source.';
+    } else {
+        document.getElementById(but).href = href;
+    }
 }
 
 window.onload = button(img1, title1, text1, alt1, but1, but2, but3, but4, but5);

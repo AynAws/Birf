@@ -6,3 +6,15 @@
 button.btn {
     margin-top: 5px;
 }
+
+.card {
+    width: 18rem;
+}
+
+.card-body {
+    height: 25vh;
+}
+
+img {
+    height: 370px;
+}
