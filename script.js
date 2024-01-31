@@ -24,8 +24,8 @@ const but4 = 'but-re4';
 
 const img3 = 'imgs/edward6.jpg';
 const title3 = '1547';
-const text3 = 'King Edward the 6th is crowned.';
-const alt3 = 'A picture of king Edward the 6th.';
+const text3 = 'King Edward the 6th is crowned at nine years old.';
+const alt3 = 'A picture of King Edward the 6th.';
 const but3 = 'but-re3';
 
 function button(img, title, text, alt, but, butt1, butt2, butt3, butt4) {
@@ -35,14 +35,19 @@ function button(img, title, text, alt, but, butt1, butt2, butt3, butt4) {
     document.getElementById('img-re').alt = alt;
     document.getElementById(but).classList.remove('btn-secondary');
     document.getElementById(but).classList.add('btn-primary');
-    document.getElementById(butt1).classList.remove('btn-primary');
-    document.getElementById(butt2).classList.remove('btn-primary');
-    document.getElementById(butt3).classList.remove('btn-primary');
-    document.getElementById(butt4).classList.remove('btn-primary');
+    document.getElementById(butt1).classList.remove('btn-primary', 'btn-success');
+    document.getElementById(butt2).classList.remove('btn-primary', 'btn-success');
+    document.getElementById(butt3).classList.remove('btn-primary', 'btn-success');
+    document.getElementById(butt4).classList.remove('btn-primary', 'btn-success');
     document.getElementById(butt1).classList.add('btn-secondary');
     document.getElementById(butt2).classList.add('btn-secondary');
     document.getElementById(butt3).classList.add('btn-secondary');
     document.getElementById(butt4).classList.add('btn-secondary');
 }
 
-window.onload = button(img1, title1, text1, alt1, but1);
+function source(but, href) {
+    document.getElementById(but).href = href;
+    document.getElementById(but).classList.add('btn-success');
+}
+
+window.onload = button(img1, title1, text1, alt1, but1, but2, but3, but4, but5);
