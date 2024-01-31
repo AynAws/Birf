@@ -6,7 +6,7 @@ Double left click: turns buttons green
 ~~Right click: turns buttons blue~~
 
 # EFFECTS
-Green button: takes you to information source
+~~Green button: takes you to information source~~
 
 ~~Red button: closes the site~~
 
