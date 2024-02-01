@@ -35,7 +35,7 @@ const href3 = 'https://en.wikipedia.org/wiki/Edward_VI';
 
 let click = 4;
 
-// I ran out of time, ignore this
+/* I ran out of time, ignore this
 function clicks() {
 $('button').mousedown(function(event) {
     switch (event.which) {
@@ -54,7 +54,7 @@ $('button').mousedown(function(event) {
 });
 if (click === 1) {
 }
-}
+}*/
 
 function button(img, title, text, alt, but, butt1, butt2, butt3, butt4) {
     document.getElementById('img-re').src = img;
