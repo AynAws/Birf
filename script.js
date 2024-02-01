@@ -35,7 +35,7 @@ const href3 = 'https://en.wikipedia.org/wiki/Edward_VI';
 
 let click = 4;
 
-// I ran out of time
+// I ran out of time, ignore this
 function clicks() {
 $('button').mousedown(function(event) {
     switch (event.which) {
@@ -71,7 +71,7 @@ function button(img, title, text, alt, but, butt1, butt2, butt3, butt4) {
     document.getElementById(butt2).classList.add('btn-secondary');
     document.getElementById(butt3).classList.add('btn-secondary');
     document.getElementById(butt4).classList.add('btn-secondary');
-    document.getElementById(but1).textContent = title1;
+    document.getElementById(but1).textContent = 'The more important 2007';
 }
 
 function source(but, href) {
